@@ -15,6 +15,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* header */
 
@@ -33,11 +35,20 @@ body {
 .galery-title {
   color: var(--title-text-color);
 }
+.container {
+  display: inline-block;
+  width: 1200;
+  background-color: aqua;
+  margin: 0;
+  padding: 0 15px;
+}
 
 .hero-button:hover {
   color: var(--title-text-color);
 }
 .hero-button {
+  display: inline-block;
+  text-align: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -45,6 +56,8 @@ body {
   background-color: var(--accent-color);
   font-family: inherit;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .filter-button:hover {
   color: var(--wright-color);
@@ -68,24 +81,39 @@ body {
   color: var(--accent-color);
   text-decoration: none;
 }
+.logo {
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
 .logo-span {
   color: var(--title-text-color);
 }
 .navigation-link {
+  display: inline-block;
   font-weight: 500;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .contact-link {
+  display: inline-block;
   font-weight: 500;
   color: var(--text-color);
   text-decoration: none;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .hero,
 .footer {
   background-color: #2f303a;
+}
+.hero {
+  text-align: center;
+  margin-bottom: o;
 }
 .hero-text {
   font-weight: 900;
@@ -94,6 +122,9 @@ body {
   text-align: center;
   color: var(--wright-color);
   letter-spacing: 0.06em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 40px;
 }
 .title-principles {
   font-weight: 700;
@@ -141,4 +172,15 @@ body {
 }
 .galery-text {
   color: var(--text-color);
+}
+
+.title-principles {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.section {
+  padding-top: 94;
+  padding-bottom: 94;
+  margin-top: 0;
+  margin-bottom: 0;
 }
