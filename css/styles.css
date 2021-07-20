@@ -1,0 +1,144 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --wright-color: #ffffff;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  color: var(--text-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.list {
+  list-style: none;
+}
+/* header */
+
+.navigation-link:hover,
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.contact-link-adress:hover,
+.contact-link-adress:focus {
+  color: var(--accent-color);
+}
+
+.title-section,
+.title-principles,
+.worker-name,
+.galery-title {
+  color: var(--title-text-color);
+}
+
+.hero-button:hover {
+  color: var(--title-text-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--wright-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+.filter-button:hover {
+  color: var(--wright-color);
+  background-color: var(--accent-color);
+}
+.filter-button {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f5f4fa;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.logo,
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-span {
+  color: var(--title-text-color);
+}
+.navigation-link {
+  font-weight: 500;
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-link {
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.hero,
+.footer {
+  background-color: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--wright-color);
+  letter-spacing: 0.06em;
+}
+.title-principles {
+  font-weight: 700;
+  line-height: 1.42;
+}
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.worker-specialty {
+  font-size: 16px;
+}
+.logo-footer-span,
+.address-text {
+  color: var(--wright-color);
+}
+.address-text {
+  font-style: normal;
+  line-height: 1.5;
+}
+.galery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.current {
+  color: var(--accent-color);
+}
+.footer-contact {
+  font-style: normal;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.galery-link {
+  text-decoration: none;
+}
+.galery-text {
+  color: var(--text-color);
+}
