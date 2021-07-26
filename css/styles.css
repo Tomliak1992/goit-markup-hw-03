@@ -22,6 +22,11 @@ ul {
 a {
   display: block;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*other*/
 .title-section {
   font-weight: 700;
@@ -31,7 +36,7 @@ a {
   padding-bottom: 50px;
 }
 .container {
-  width: 1230;
+  width: 1200;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -198,13 +203,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 0;
 }
 /* section with photo */
 .photo-sectin-flex {
   display: flex;
-  align-items: center;
+  padding: 0;
+  margin: 0;
   justify-content: space-between;
 }
+
 /*worker*/
 .worker-photo {
   margin-bottom: 30px;
@@ -221,8 +229,12 @@ p {
 }
 .team-flex {
   display: flex;
-  align-items: center;
+  padding: 0;
+  margin: 0;
   justify-content: space-between;
+}
+.worker-item:not(:last-child) {
+  margin-right: 30px;
 }
 /*filter*/
 .filter-button:hover {
@@ -265,7 +277,6 @@ p {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  padding-top: 20px;
 }
 .galery-link {
   text-decoration: none;
@@ -274,12 +285,22 @@ p {
   color: var(--text-color);
 }
 .galery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  margin-top: 45px;
+  margin-top: 30px;
   justify-content: space-between;
 }
 .galery-item {
   margin-top: 30px;
+}
+.card-content {
+  padding: 20px 24px;
+  margin: 0;
+  border-bottom: #eeeeee;
+}
+.padding-reset {
+  padding-top: 0px;
 }
